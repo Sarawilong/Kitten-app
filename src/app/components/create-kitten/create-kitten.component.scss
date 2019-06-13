@@ -1,0 +1,50 @@
+#mainSection {
+    margin-top: 50px;
+    margin-bottom:50px;
+    padding-top : 50px;
+    padding-bottom: 50px;
+    background-color: grey;
+    border-radius: 5%;
+
+    #formSection {
+        width : 100%;
+        margin-bottom: 50px;
+    }
+
+    h2 {
+        padding-bottom: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    label, input, .btn {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #submitButtonContainer {
+        display: flex;
+        justify-content: center;
+        margin-top : 70px;
+    }
+
+    #checkOutKittens {
+
+        background-color: pink;
+        padding : 10px;
+
+        a {
+            color: grey;
+            font-size : 1.3rem;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    #checkOutKittens:hover {
+        background-color: black;
+
+
+        a {
+            text-decoration: none;
+            color: pink;
+        }
+    }
+}
